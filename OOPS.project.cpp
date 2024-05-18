@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+
+// Main class holding the member function declarations and variable field
+
 class medicines_accessories
 {
     public:
@@ -15,6 +18,9 @@ class medicines_accessories
     void buccal_tablets();
     void medical_accessories();
 };
+
+// function call statements to each category of medicines
+
 void medicines_accessories::drops()
 {
   cout<< "Enter the field:";
